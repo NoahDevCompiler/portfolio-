@@ -1,10 +1,36 @@
+ 
+<script setup>
+    const scrolldown = () => {
+        window.scrollTo({
+            top: window.innerHeight,
+            behavior: 'smooth'
+        });
+    }
+</script>
+
 <template>
  <div class="container">
     <ul>
-      <li style="--i:4;"><a>Home</a></li>
-      <li style="--i:3;"><a>Projects</a></li>
-      <li style="--i:2;"><a>About</a></li>
-      <li style="--i:1;"><a>Contact</a></li>
+        <li style="--i:4;">
+            <RouterLink to="/" @click ="scrolldown">
+                 Home
+            </RouterLink>    
+        </li>
+        <li style="--i:3;">
+            <RouterLink to="/projects">
+                 Projects
+            </RouterLink>
+        </li>
+        <li style="--i:2;">
+            <RouterLink to="/about">
+                 About
+            </RouterLink>  
+        </li>
+        <li style="--i:1;">
+            <RouterLink to="/contact">
+                Contact
+            </RouterLink>  
+        </li>
     </ul>
   </div>
 </template>

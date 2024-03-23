@@ -1,6 +1,68 @@
+<script setup>
+import Hero from "../Hero.vue"
+</script>
+
 <template>
-    <div>asdfasdfhjiasdhadsjfasdjkhfasdfjkhasdf
-        asdfjkasdfhjasdljhf
-        asdfjkasldf
+    <div>
+        <Hero class="element" />
+        cock
+        <p></p>
+        cock
+        cock
+        cock
+        cock
+        cock
+        <p></p>
+        <p></p>
+        cock
+        <p></p>
+        cock
+        <p></p>
+        cock
+        cock
+        cock
+        <p></p>
+        cock
+        cock
+        cock
+        cock
+        cock
+        cock
+        cock
+        cock
+        cock
+        cock
+        cock
+        cock
+        cock
+        cock
+        cock
+        cock
+        cock
+        cock
+        <p></p>
+        cock
+        cock
+        cock
+        cock
+        cock
+        cock
+        cock
+        cock
+        cock
+        cock
+        cock
+        cock
+        cock
+        cock
+        cock
+        cock
+        cock
+        cock
+        cock
+        cock
+        cock
+        cock
+        cock
     </div>
 </template>

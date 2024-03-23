@@ -1,20 +1,20 @@
 <script setup>
 import { RouterView } from 'vue-router'
 import Navbar from './components/Navbar.vue'
-import Logo from "./assets/logo.png"
+import router from "./router.js"
+
 </script>
 
 <template>
   <div class="d-flex align-items-stretch">
     <Navbar></Navbar>
 
+        <router-link to="/" class="logo">
+          <img src="./assets/logo.png" alt="">
+        </router-link>
+
     <div class="content container">
       <RouterView/>  
-
-      <div class="logo">
-        <Logo/>
-      </div>
-
     </div>
   </div>
  
@@ -25,13 +25,18 @@ import Logo from "./assets/logo.png"
 <style scoped>
 
 .logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+  display:flex;
+  position:fixed;
+  top:10px;
+  left:10px;
+  
+  height: 200px;
+  transition: 0.7s;
+ 
 }
 .logo:hover {
-  filter: drop-shadow(0 0 2em #099909);
+  transition: 0.7s;
+  filter: drop-shadow(0 0 2em #ffffff);
 }
 .logo.vue:hover {
   filter: drop-shadow;
