@@ -1,10 +1,12 @@
  
 <script setup>
-    const scrolldown = () => {
-        window.scrollTo({
+    const scrolldown =  () => {
+         setTimeout(() =>{
+            window.scrollTo({
             top: window.innerHeight,
             behavior: 'smooth'
-        });
+            });
+        }, 20)
     }
 </script>
 
