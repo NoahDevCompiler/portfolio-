@@ -3,7 +3,7 @@
     const scrolldown =  () => {
          setTimeout(() =>{
             window.scrollTo({
-            top: window.innerHeight,
+            top: window.innerHeight / 1.25,
             behavior: 'smooth'
             });
         }, 20)
@@ -24,7 +24,7 @@
             </RouterLink>
         </li>
         <li style="--i:2;">
-            <RouterLink to="/about">
+            <RouterLink to="/about" @click ="scrolldown">
                  About
             </RouterLink>  
         </li>

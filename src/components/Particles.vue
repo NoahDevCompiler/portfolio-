@@ -1,5 +1,5 @@
 <script setup>
-
+import particlesConfig from "../assets/particles-config.js"
 const particlesLoaded = async container => {
    
 };
@@ -8,6 +8,7 @@ const particlesLoaded = async container => {
 
 <template>
     <div>
+       
         <vue-particles
             id="tsparticles"
             @particles-loaded="particlesLoaded"

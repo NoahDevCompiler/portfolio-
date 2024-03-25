@@ -1,11 +1,18 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [],
+  content: [
+    "./index.html",
+    "./src/**/*.{vue,js,ts,jsx,tsx}",
+  ],
   theme: {
     extend: {
-      colors:{
-        'noah': '#915eff',
-      },
+      colors: {
+        descriptionText: '#CCCCCC', 
+        customGreen: {
+          DEFAULT: '#00FF00', 
+          dark: '#009900',   
+        }
+      }
     },
   },
   plugins: [],
