@@ -46,15 +46,15 @@ import {
       icon: web,
     },
     {
-      title: "Vue Professional Native Developer",
+      title: "Backend APIs",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Software Development ",
       icon: backend,
     },
     {
-      title: "Professional Momfucker",
+      title: "Database Management:",
       icon: creator,
     },
   ];

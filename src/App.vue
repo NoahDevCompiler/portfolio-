@@ -1,7 +1,7 @@
 <script setup>
 import { RouterView } from 'vue-router'
-import Navbar from './components/Navbar.vue'
 import Particles from './components/Particles.vue'
+import PrimaryNavbar from './components/NavBars/Primary-Navbar.vue'
 import router from "./router.js"
 import { onMounted } from 'vue'
 
@@ -17,7 +17,7 @@ const scrollup =  () => {
 
 <template>
     <div class="d-flex align-items-stretch">
-      <Navbar class="nav"/>
+      <PrimaryNavbar class="nav"/>
 
         <router-link to="/" class="logo">
           <img src="./assets/logo.png" alt="" @click="scrollup">

@@ -28,7 +28,7 @@ const particlesLoaded = async container => {
                             },
                             onHover: {
                                 enable: true,
-                                mode: 'grab'
+                                mode: 'repulse'
                             },
                         },
                         modes: {
@@ -42,7 +42,7 @@ const particlesLoaded = async container => {
                                 quantity: 4
                             },
                             repulse: {
-                                distance: 200,
+                                distance: 100,
                                 duration: 0.4
                             }
                         }
