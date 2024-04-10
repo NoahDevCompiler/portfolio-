@@ -1,7 +1,31 @@
-# Vue 3 + Vite
+# Portfolio 3D Website with Vue.js
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+This is an unfinished project for a portfolio website developed using Vue.js. The website is designed to provide users with an interactive 3D environment to showcase various projects and information.
 
-## Recommended IDE Setup
+## Status
 
-- [VS Code](https://code.visualstudio.com/) + [Vue - Official](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (previously Volar) and disable Vetur
+The project is currently in an unfinished phase. Some features are missing, and the design needs further improvement.
+
+## Features
+
+- Interactive 3D environment with Vue.js
+- Display of projects and information
+
+
+## Installation
+
+To run the project locally, follow these steps:
+
+1. Clone the repository: `git clone https://github.com/your-username/your-project.git`
+2. Navigate to the project directory: `cd portfolio-`
+3. Install dependencies: `npm install`
+4. Start the development server: `npm run serve`
+
+## Contribution
+
+Contributions to the project are welcome! If you've found a bug, want to suggest an improvement, or wish to add features, feel free to open a pull request.
+
+## License
+
+This project is licensed under the MIT License. For more information, see the [License file](LICENSE).
+

@@ -12,7 +12,6 @@ import { navbarfadein } from "../../utils/motion";
     }
     const secondnavbar = ref(false)
 
-
     const handleScroll = () => {
       if (window.scrollY > 700) {
         console.log("asbjkdf")
@@ -28,16 +27,18 @@ import { navbarfadein } from "../../utils/motion";
 onUnmounted(() => {
     window.removeEventListener('scroll', handleScroll);
 });
+
+    
 </script>
 
 <template>
     
  <div id="container">
      <!-- MAKE ANIMATIONS HS-->
-     
+    <Transition>
     <div class="absolute top-0 right-0" id="secondary" v-if="secondnavbar"
-    
-        v-motion="navbarfadein">
+    >
+
         <ul class="navbar-top" :style="{letterSpacing: '0.1em'}" >
             <li>
                 <RouterLink to="/projects" @click ="scrolldown">
@@ -56,7 +57,9 @@ onUnmounted(() => {
             </li>
         </ul>   
     </div>
-    <transition name="fade">
+    </Transition>
+
+    <Transition name="fade">
 
         <!-- MAKE ANIMATIONS HS-->
 
@@ -82,7 +85,7 @@ onUnmounted(() => {
             </RouterLink>  
         </li>
     </ul>
-    </transition>
+    </Transition>
     
   </div>
 
